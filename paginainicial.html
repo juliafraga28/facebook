@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <title>Exemplo Bootstrap</title>
 
@@ -15,39 +16,82 @@
 <body style="background-color: #D8DFEA">
 
 
-  <nav class="navbar navbar-expand-lg" style="background: #27408B">
-    <div class="row align-items-center" style="margin-right: 0; margin-left: 0; padding-right: 0; padding-left: 0;">
-    <div class="col">
-      <a class="navbar-brand" href="paginainicial.html" style="color: white;"><img src="img/logo.png" style="width: 60px; height: 50px;"></a>
+  <nav class="navbar navbar-light " style="background-color: #104E8B">
+    <div class="row">
+      <div class="col pl-1">
+       <a class="navbar-brand" href="feed.html">
+        <img src="img/logo.png" style="border-radius: 2px; width: 30px; height: 30px;">
+      </a>
     </div>
-    <div class="col-md5">
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Pesquisar" >
-        <div class="input-group-append">
-          <span class="input-group-text"><i class="fas fa-search"></i></span>
-        </div>
+    <div class="col pl-1">
+      <div class="text-left mr-auto " style="width: 600px; height: 50px">
+        <form class="form text-center">
+          <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
+        </form>
       </div>
     </div>
-    <div class="redondo">
-      <img src="img/usuario.png" style="width: 50px; height: 50px; border-radius: 200%;">
-    </div>
-    <div class="col">
-      <a href="" style="color: white;"><p>Usuário</p></a>
-    </div>
-    <div class="col">
-      <a href="" style="color: white;"><p>Página inicial</p></a>
-    </div>
-    <div class="col">
-      <a href="" style="color: white;"><p>Criar</p></a>
-    </div>
-    <div class="col">
-      <a href=""><img src="img/solicitação.png" style="width: 50px; height: 50px; border-radius: 200%;"></a>
-    </div>
+    <div class="col pl-1">
+      <div class="text-left ">
+        <a href="perfil.html"><img src="img/perfil.png" style="border-radius: 20px; width: 30px; height: 30px;"></a>
+
+      </div>
     </div>
 
-  </nav>
+    <div class="col pl-1">
+      <a class="navbar-brand" href="perfil.html" style="color:#FFFFFF; font-family: Arial; font-size:15px;">Júlia Fraga</a>
+    </div>
+    <hr style="width: 1px; height: 25px">
+    <div class="col pl-4">
+      <a class="navbar-brand" href="feed.html" style="color:#FFFFFF; font-family: Arial;font-size:15px; ">Página Inicial</a>
+    </div>
+    <div class="col pl-1">
+      <a class="navbar-brand" href="feed.html" style="color:#FFFFFF; font-family: Arial;font-size:15px; ">Criar</a>
+    </div>
+    <div class="col pl-4">
+      <a href="feed.html">
+       <i class="fas fa-user-friends" style="font-size: 30px"></i>
+     </a>
+   </div>
+   <div class="col pl-4">
+    <a href="feed.html">
+      <i class="fab fa-facebook-messenger" style="font-size: 30px"></i>
+    </a>
+  </div>
+  <div class="col pl-4">
+    <a href="feed.html">
+      <i class="far fa-bell" style="font-size: 30px"></i>
+    </a>
+  </div>
+  <div class="col pl-4">
+    <a href="feed.html">
+      <i class="far fa-question-circle" style="font-size: 30px"></i>
+    </a>
+  </div>
+  <div class="col pl-1">
+    <ul style="list-style-type: none;">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-caret-down" style="font-size: 30px"></i>
+        </a> 
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Seus grupos</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Publicidade no Facebook</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Registro de Atividades</a>
+          <a class="dropdown-item" href="#">Preferências do Feed de Notícias</a>
+          <a class="dropdown-item" href="#">Configurações</a>
+          <a class="dropdown-item" href="#">Sair</a>
 
-  <div class="containers">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+</nav>
+
+
   <div class="row">
 
     <div class="col" style="height: 100px;">
@@ -102,30 +146,63 @@
         <br>
         <a href="paginainicial"><img src="img/clima.png"></a>
         <br>
+      </ul>
+    </div>
 
-        <div class="row">
-          <div class="card">
-            <div class="card-header">
-              <a href="paginainicial"><img src="img/pub1.png"></a>
+
+      
+        <div class="col">
+          <div class="row">
+          <div class="card" style="height: 100px; width: 748px;">
+            <div class="card-header" style="height: 85px;">
+              <a href="paginainicial.html"><img src="img/pub1.png" style="height: 95px;"></a>
             </div>
-            <div class="card-body">
-              <a href="paginainicial"><img src="img/img1.jpg"></a>
+            <div class="card-body" style="height: 100px width: 100px;;">
+              <a href="paginainicial.html"><img src="img/img1.jpg"></a>
             </div>
           </div>
+          </div>
+
+          <div class="row">
+          <div class="card" style="height: 100px; width: 748px;">
+            <ul></ul>
+              <a href="paginainicial.html"><img src="img/pub2.png" style="height: 95px;"></a>
+            <div class="card-body" style="height: 100px width: 100px;;">
+              <a href="paginainicial.html"><img src="img/img2.png"></a>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+        <div class="col">
+          <div class="row">
+             <div class="card" style="width: 18px;">
+            <div class="card-body">
+              <a href="paginainicial.html"><img src="img/stories4.png" style="height: 95px;"></a>
+            </div>
+          </div>
+          </div>
+         
+
+
         </div>
 
 
 
+      
 
-        <br>
-      </ul>
-    </div>
-    </div>
+
+
+
+
+
+
   </div>
 
 
-</body>
-</html>
+
+
 
 
 
