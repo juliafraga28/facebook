@@ -7,268 +7,326 @@
   <meta name="author" content="">
 
   <title>Facebook</title>
-  
+
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body style="background-color:#d8dfea " >
+<body style="background: linear-gradient(white,#D3D8E8);">
 
+  <nav class="navbar navbar-light" style="background-color:#3b5998;">
 
-	<!-- Seu código vai aqui! -->
-  <nav class="navbar navbar-light" style="background-color:  #3b5998">
-    <p style="color:#FFFFFF ;font-size: 55px;font-family:Aharoni ; text-align: center; width: 550px">facebook</p>
-  <form class="form-inline">
+<div class="container">
+   <p style="color: #FFFFFF; font-size:50px; font-family: Arial; text-align: center; "><b>facebook</b></p>
+
+   <form class="form-inline">
     <div class="row">
-      <div class="col">
-      <label for="inputEmail" style="color:#FFFFFF" >Email ou Telefone</label>
-      <input type="email" arial-label="Search" style="width: 215px;">
-    </div>
-    <div class="col">
-      <label for="inputPassword" style="color:#FFFFFF">Senha</label>
-      <input type="email" arial-label="Search" style="width: 215px;">
-      <a href="esqueceu.html"><p style="color: #afbdd4; font-size: 15px;">Esqueceu a conta ?</p></a>
-    </div>
-    </div>
-  </form>
-</nav>
-<div class="container-fluid">
-  <p ><h3>O Facebook ajuda você a se conectar e</h3></p>
-  <p><h3>compartilhar com as pessoas que fazem parte</h3></p>
-  <p><h3>da sua vida.</h3></p>
-  <img src="img/rede.png" style="height: 230px;">
-</div>
+      <div class="col" style="padding: 5px;"><p style="color: #FFFFFF;  font-size:15px; ">Email ou telefone</p>
+       <input  type="email" aria-label="Search" style="width: 200px; height:25px;">
+     </div>
 
-<div class="container-fluid">
-  <h1>Abra uma conta</h1>
-  <h6>É gratuito e sempre será.</h6>
-  <div class="row">
-    <div class="col " style="align-self: right;">
-      <form>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom01"></label>
-      <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" required>
+     <div class="col" style="padding: 5px;">
+      <p style="color: #FFFFFF;  font-size:15px;">Senha</p>
+      <input type="password" aria-label="Search" style="width: 200px; height:25px;">
+      <a href="esqueceu.html"><p style="color:#afbdd4 ; font-size:15px; ">Esqueceu a conta?</p></a>
     </div>
-    <div class="col-md-4 mb-3">
-  <label for="validationCustom02"></label>
-  <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome"  required>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03"></label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Email ou Telefone" required>
-    </div>
-  </div>
-    <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom04"></label>
-      <input type="password" class="form-control" id="validationCustom04" placeholder="Nova senha" required>
-    </div>
-  </div>
-  <h4>Data de nascimento</h4>
-</tr>
-   <td align="left">
-    <select name="data"> 
-    <option value="Dia">Dia</option>
-    <option value="01">01</option> 
-    <option value="02">02</option> 
-    <option value="03">03</option> 
-    <option value="04">04</option> 
-    <option value="05">05</option> 
-    <option value="06">06</option> 
-    <option value="07">07</option> 
-    <option value="08">08</option> 
-    <option value="09">09</option> 
-    <option value="10">10</option> 
-    <option value="11">11</option> 
-    <option value="12">12</option> 
-    <option value="13">13</option> 
-    <option value="14">14</option> 
-    <option value="15">15</option> 
-    <option value="16">16</option> 
-    <option value="17">17</option> 
-    <option value="18">18</option> 
-    <option value="19">19</option> 
-    <option value="20">20</option> 
-    <option value="21">21</option> 
-    <option value="22">22</option> 
-    <option value="23">23</option> 
-    <option value="24">24</option> 
-    <option value="25">25</option> 
-    <option value="26">26</option> 
-    <option value="27">27</option>
-    <option value="28">28</option> 
-    <option value="29">29</option> 
-    <option value="30">30</option> 
-    <option value="31">31</option>  
-   </select>
-   </td>
-
-   <td>
-    <select name="mes"> 
-    <option value="Mês">Mês</option>
-    <option value="Jan">Jan</option> 
-    <option value="Fev">Fev</option> 
-    <option value="Mar">Mar</option> 
-    <option value="Abr">Abr</option> 
-    <option value="Mai">Mai</option> 
-    <option value="Jun">Jun</option> 
-    <option value="Jul">Jul</option> 
-    <option value="Ago">Ago</option> 
-    <option value="Set">Set</option> 
-    <option value="Out">Out</option> 
-    <option value="Nov">Nov</option> 
-    <option value="Dez">Dez</option> 
-   </select>
-   </td>
-
-   <td>
-    <select name="ano"> 
-    <option value="">Ano</option>
-    <option value="01">1905</option> 
-    <option value="02">1906</option> 
-    <option value="03">1907</option> 
-    <option value="04">1908</option> 
-    <option value="05">1909</option> 
-    <option value="06">1910</option> 
-    <option value="07">1911</option> 
-    <option value="08">1912</option> 
-    <option value="09">1913</option> 
-    <option value="10">1914</option> 
-    <option value="11">1915</option> 
-    <option value="12">1916</option> 
-    <option value="13">1917</option> 
-    <option value="14">1918</option> 
-    <option value="15">1919</option> 
-    <option value="16">1920</option> 
-    <option value="17">1921</option> 
-    <option value="18">1922</option> 
-    <option value="19">1923</option> 
-    <option value="20">1924</option> 
-    <option value="21">1925</option> 
-    <option value="22">1926</option> 
-    <option value="23">1927</option> 
-    <option value="24">1928</option> 
-    <option value="25">1929</option> 
-    <option value="26">1930</option> 
-    <option value="27">1931</option>
-    <option value="28">1932</option> 
-    <option value="29">1933</option> 
-    <option value="30">1934</option> 
-    <option value="31">1935</option>
-    <option value="31">1936</option>
-    <option value="31">1937</option>
-    <option value="31">1938</option>
-    <option value="31">1939</option>
-    <option value="31">1940</option>
-    <option value="31">1941</option>
-    <option value="31">1942</option>
-    <option value="31">1943</option>
-    <option value="31">1944</option>
-    <option value="31">1945</option>
-    <option value="31">1946</option>
-    <option value="31">1947</option>
-    <option value="31">1948</option>
-    <option value="31">1949</option>
-    <option value="31">1950</option>
-    <option value="31">1951</option>
-    <option value="31">1952</option>
-    <option value="31">1953</option>
-    <option value="31">1954</option>
-    <option value="31">1955</option>
-    <option value="31">1956</option>
-    <option value="31">1957</option>
-    <option value="31">1958</option>
-    <option value="31">1959</option>
-    <option value="31">1960</option>
-    <option value="31">1961</option>
-    <option value="31">1960</option>
-    <option value="31">1962</option>
-    <option value="31">1963</option>
-    <option value="31">1964</option>
-    <option value="31">1965</option>
-    <option value="31">1966</option>
-    <option value="31">1967</option>
-    <option value="31">1968</option>
-    <option value="31">1969</option>
-    <option value="31">1970</option>
-    <option value="31">1971</option>
-    <option value="31">1972</option>
-    <option value="31">1973</option>
-    <option value="31">1974</option>
-    <option value="31">1975</option>
-    <option value="31">1976</option>
-    <option value="31">1977</option>
-    <option value="31">1978</option>
-    <option value="31">1979</option>
-    <option value="31">1980</option>
-    <option value="31">1981</option>
-    <option value="31">1982</option>
-    <option value="31">1983</option>
-    <option value="31">1984</option>
-    <option value="31">1985</option>
-    <option value="31">1986</option>
-    <option value="31">1987</option>
-    <option value="31">1988</option>
-    <option value="31">1989</option>
-    <option value="31">1990</option>
-    <option value="31">1991</option>
-    <option value="31">1992</option>
-    <option value="31">1993</option>
-    <option value="31">1994</option>
-    <option value="31">1995</option>
-    <option value="31">1996</option>
-    <option value="31">1997</option>
-    <option value="31">1998</option>
-    <option value="31">1999</option>
-    <option value="31">2000</option>
-    <option value="31">2001</option>
-    <option value="31">2002</option>
-    <option value="31">2003</option>
-    <option value="31">2004</option>
-    <option value="31">2005</option>
-    <option value="31">2006</option>
-    <option value="31">2007</option>
-    <option value="31">2008</option>
-    <option value="31">2009</option>
-    <option value="31">2010</option>
-    <option value="31">2011</option>
-    <option value="31">2012</option>
-    <option value="31">2013</option>
-    <option value="31">2014</option>
-    <option value="31">2015</option>
-    <option value="31">2016</option>
-    <option value="31">2017</option>
-    <option value="31">2018</option>
-   </select>
-   </td>
-  </tr>
-</form>
-<br>
-<form class="form-group">
-<div class="row" align="left">
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-    <label class="form-check-label" for="gridRadios1">
-      <h5>Feminino</h5>
-    </label>
   </div>
   <div class="col">
-    <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-           <h5>Masculino</h5>
-          </label>
+    <a href=""><button type="button" class="btn btn-secondary btn-sm" style="background-color:#104E8B;">Entrar</button></a>
+  </div>
+</form> 
+</div>
+</nav>
+
+<div class="container-fluid">
+<div class="row" >
+  <div class="col"> </div>
+    <div class="col">
+      <p><h4>O Facebook ajuda você a se conectar e
+      compartilhar com as pessoas que fazem parte
+      da sua vida.</h4></p>
+     
+     <img src="img/rede.png" style="height: 210px; padding: 5px;">
+   </div>
+    <div class="col" style="align-self: right;">
+      <div class="col"> 
+    <h2>Abra uma conta</h2>
+    <h6>É gratuito e sempre será.</h6>
+    </div>
+
+      <form style="padding: 4px;">
+        <div class="form-row">
+          <div class="form-group col">
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Nome" style="width: 245px;">
+          </div>
+          <div class="form-group col">
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Sobrenome" style="width: 245px;">
+          </div>
         </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Celular ou email" style="width: 500px;">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="inputAddress2" placeholder="Nova senha" style="width: 500px;">
+        </div>
+        <div class="form-row">
+          <h6>Data de nascimento</h6>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <select id="input" class="form-control">
+              <option>Dia</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select id="input" class="form-control">
+              <option>Mês</option>
+              <option>jan</option>
+              <option>fev</option>
+              <option>mar</option>
+              <option>abr</option>
+              <option>mai</option>
+              <option>jun</option>
+              <option>jul</option>
+              <option>ago</option>
+              <option>set</option>
+              <option>out</option>
+              <option>nov</option>
+              <option>dez</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select id="input" class="form-control">
+              <option>Ano</option>
+              <option value="01">1905</option> 
+              <option value="02">1906</option> 
+              <option value="03">1907</option> 
+              <option value="04">1908</option> 
+              <option value="05">1909</option> 
+              <option value="06">1910</option> 
+              <option value="07">1911</option> 
+              <option value="08">1912</option> 
+              <option value="09">1913</option> 
+              <option value="10">1914</option> 
+              <option value="11">1915</option> 
+              <option value="12">1916</option> 
+              <option value="13">1917</option> 
+              <option value="14">1918</option> 
+              <option value="15">1919</option> 
+              <option value="16">1920</option> 
+              <option value="17">1921</option> 
+              <option value="18">1922</option> 
+              <option value="19">1923</option> 
+              <option value="20">1924</option> 
+              <option value="21">1925</option> 
+              <option value="22">1926</option> 
+              <option value="23">1927</option> 
+              <option value="24">1928</option> 
+              <option value="25">1929</option> 
+              <option value="26">1930</option> 
+              <option value="27">1931</option>
+              <option value="28">1932</option> 
+              <option value="29">1933</option> 
+              <option value="30">1934</option> 
+              <option value="31">1935</option>
+              <option value="31">1936</option>
+              <option value="31">1937</option>
+              <option value="31">1938</option>
+              <option value="31">1939</option>
+              <option value="31">1940</option>
+              <option value="31">1941</option>
+              <option value="31">1942</option>
+              <option value="31">1943</option>
+              <option value="31">1944</option>
+              <option value="31">1945</option>
+              <option value="31">1946</option>
+              <option value="31">1947</option>
+              <option value="31">1948</option>
+              <option value="31">1949</option>
+              <option value="31">1950</option>
+              <option value="31">1951</option>
+              <option value="31">1952</option>
+              <option value="31">1953</option>
+              <option value="31">1954</option>
+              <option value="31">1955</option>
+              <option value="31">1956</option>
+              <option value="31">1957</option>
+              <option value="31">1958</option>
+              <option value="31">1959</option>
+              <option value="31">1960</option>
+              <option value="31">1961</option>
+              <option value="31">1960</option>
+              <option value="31">1962</option>
+              <option value="31">1963</option>
+              <option value="31">1964</option>
+              <option value="31">1965</option>
+              <option value="31">1966</option>
+              <option value="31">1967</option>
+              <option value="31">1968</option>
+              <option value="31">1969</option>
+              <option value="31">1970</option>
+              <option value="31">1971</option>
+              <option value="31">1972</option>
+              <option value="31">1973</option>
+              <option value="31">1974</option>
+              <option value="31">1975</option>
+              <option value="31">1976</option>
+              <option value="31">1977</option>
+              <option value="31">1978</option>
+              <option value="31">1979</option>
+              <option value="31">1980</option>
+              <option value="31">1981</option>
+              <option value="31">1982</option>
+              <option value="31">1983</option>
+              <option value="31">1984</option>
+              <option value="31">1985</option>
+              <option value="31">1986</option>
+              <option value="31">1987</option>
+              <option value="31">1988</option>
+              <option value="31">1989</option>
+              <option value="31">1990</option>
+              <option value="31">1991</option>
+              <option value="31">1992</option>
+              <option value="31">1993</option>
+              <option value="31">1994</option>
+              <option value="31">1995</option>
+              <option value="31">1996</option>
+              <option value="31">1997</option>
+              <option value="31">1998</option>
+              <option value="31">1999</option>
+              <option value="31">2000</option>
+              <option value="31">2001</option>
+              <option value="31">2002</option>
+              <option value="31">2003</option>
+              <option value="31">2004</option>
+              <option value="31">2005</option>
+              <option value="31">2006</option>
+              <option value="31">2007</option>
+              <option value="31">2008</option>
+              <option value="31">2009</option>
+              <option value="31">2010</option>
+              <option value="31">2011</option>
+              <option value="31">2012</option>
+              <option value="31">2013</option>
+              <option value="31">2014</option>
+              <option value="31">2015</option>
+              <option value="31">2016</option>
+              <option value="31">2017</option>
+              <option value="31">2018</option>
+            </select>
+          </div>
+          <div class="form-group col">
+            <a href="" style="color: #3B5998; font-size: 12px;" data-toggle="tooltip" data-placement="right"
+            title="Ao informar sua data de nascimento, você ajuda a
+            garantir que a sua experiência no Facebook seja 
+            adequada à sua idade. Se desejar alterar quem vê 
+            isso, vá para a seção Sobre do seu perfil. Para obter 
+            mais detalhes, visite nossa Política de Dados.">
+            <p>Por que preciso informar minha data de nascimento?</p></a>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1"><h6>Feminino</h6></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><h6>Masculino</h6></label>
+          </div>
+        </div>
+        <div class="form-row">
+          <p style="color: #778899 ; font-size: 13px;">Ao clicar em Inscreva-se, você concorda com nossos  <a href="https://pt-br.facebook.com/legal/terms/update" style="color: #3b5998;">Termos</a>,
+            <a href="https://pt-br.facebook.com/about/privacy/update" style="color: #3b5998;">Política de Dados</a> 
+            <a href="https://pt-br.facebook.com/policies/cookies/" style="color: #3b5998;">e Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+          </div>
+          <div class="form-row"><button type="button" class="btn btn-success" style="width:210px;">Increver-se</button>
+          </div>
+
+          <div class="form-row" style="padding:10px;">
+            <p style="font-size: 15px;"><a href="https://www.facebook.com/pages/creation/?ref_type=registration_form" style="color: #3b5998;">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+          </div>
+        </form>
+      </div>
+      <div class="col"> </div>
+      <div class="container-fluid" style="background-color: #ffffff; text-align: center;">
+        <div class="col"> </div>
+        <a href="" style="color:#3b5998; font-size: 15px;">
+        Português (Brasil)   English (US)   Español    Français (France)Italiano  Deutschال  عربيةह  िन्दी  中文(简体)  日本語</a>
+
+       <hr style="width: 1000px;">
+       <div class="col"> </div>
+       <a href="" style="color:#3b5998;font-size: 15px ">Inscreva-se</a>
+       <a href="" style="color:#3b5998;font-size: 15px ">Entrar</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Messenger</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Facebook Lite</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Celular</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Encontrar amigos</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Pessoas</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Páginas</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Video Interests</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Locais</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Jogos</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Locais</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Marketplace</a>
+       <br>
+       <a href="" style="color:#3b5998;font-size: 15px">Grupos</a>
+       <a href="" style="color:#3b5998;font-size: 15px ">Instagram</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Local</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Sobre</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Criar anúncio</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Criar Página</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Desenvolvedores</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Carreiras</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Privacidade</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Cookies</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Opções de anúncio</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Termos</a>
+       <a href="" style="color:#3b5998; font-size: 15px">Ajuda</a>
+       </div>
+    </div>
   </div>
-</div>
-</form>
-</div>
-  </div>
+
   
- 
+
+
+
+
+
+
+
+
 
     <!-- Bootstrap core JavaScript
       ================================================== -->
